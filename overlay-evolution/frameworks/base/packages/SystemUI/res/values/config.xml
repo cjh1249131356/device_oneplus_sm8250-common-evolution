@@ -15,4 +15,10 @@
 <resources>
     <!-- Burn-in protection -->
     <bool name="config_statusBarBurnInProtection">false</bool>
+
+    <!-- The CPU temperature divider, if needed -->
+    <integer name="config_cpuTempDivider" translatable="false">1000</integer>
+
+    <!-- The CPU temperature sensor path, defaults to empty -->
+    <string name="config_cpuTempSensor" translatable="false">/sys/class/thermal/thermal_zone4/temp</string>
 </resources>
