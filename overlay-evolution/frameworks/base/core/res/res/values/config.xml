@@ -95,4 +95,7 @@
 
     <!-- NightLight FOD -->
     <bool name="disable_fod_night_light">true</bool>
+
+    <!-- Default fod pressed color -->
+    <integer name="config_fod_pressed_color">0</integer>
 </resources>
