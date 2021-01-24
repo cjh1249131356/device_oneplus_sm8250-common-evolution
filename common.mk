@@ -562,4 +562,4 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # Default Color Mode
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.sf.native_mode=2
+    persist.sys.sf.native_mode=0
